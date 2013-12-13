@@ -1,36 +1,22 @@
 ---
 layout: page
-title: Gsh Blog
+title: 高莘的博客
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+欢迎来到高莘的博客
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+## 我的主要项目
 
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
+- 基于Hadoop的分布式爬虫 [DistributeCrawler](https://github.com/gsh199449/DistributeCrawler)
+- 多线程单节点爬虫 [MyLucene](https://github.com/gsh199449/MyLucene)
+- 家庭电量管理系统 ([window版](https://github.com/gsh199449/ElecForm) | [Web版](https://github.com/gsh199449/Elec))
+- 电量管理系统的WebServer [ElecWebService](https://github.com/gsh199449/ElecWebService)
+- 模拟登录河北科技大学教务系统并读取成绩的成绩查看器  [URPScanner](https://github.com/gsh199449/URPScanner)
+- 图书管理系统 [LibrarySystem](https://github.com/gsh199449/LibrarySystem)
     
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+## 日志列表
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -38,9 +24,10 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
+## 联系我
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+Email : gsh199449@hotmail.com
+
+微博 : <a href="http://weibo.com/u/2511405337?s=6uyXnP" target="_blank"><img border="0" src="http://service.t.sina.com.cn/widget/qmd/2511405337/ef835547/7.png"/></a>
 
 
